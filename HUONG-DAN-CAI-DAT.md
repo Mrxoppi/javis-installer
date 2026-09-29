@@ -1,7 +1,7 @@
 # Cài Javis (dành cho máy Windows)
 
 ## Cách 1: Một dòng lệnh (nhanh nhất)
-1. Bấm nút **Start** (cờ Windows), gõ chữ **PowerShell**, bấm vào **Windows PowerShell**.
+1. Bấm nút **Start** (cờ Windows), gõ chữ **PowerShell**, bấm vào **Windows PowerShell**. **Mở bình thường, đừng chọn "Run as administrator"** và đăng nhập Windows bằng đúng tài khoản bạn sẽ dùng Javis hằng ngày. Cài bằng tài khoản khác thì Javis không thấy các chương trình vừa cài.
 2. Dán dòng lệnh người hướng dẫn gửi cho bạn, bấm **Enter**.
 3. Đợi khoảng 5 đến 10 phút. Nếu Windows hỏi Yes/Có thì bấm **Yes/Có**.
 4. Xong, ngoài màn hình có biểu tượng **Javis**. Bấm đúp để mở.
