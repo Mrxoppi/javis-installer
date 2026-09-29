@@ -10,9 +10,7 @@ Write-Host " Dang tai Javis..." -ForegroundColor Cyan
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Uri $Url -OutFile $zip -UseBasicParsing
 if (Test-Path $dest) {
-  Write-Host " Thu muc $dest da co. De tranh mat du lieu, se khong ghi de." -ForegroundColor Yellow
-  Write-Host " Muon cai lai: doi ten hoac xoa thu muc do roi chay lai." -ForegroundColor Yellow
-  exit 1
+  Write-Host " Thu muc $dest da co: se cap nhat len tren, du lieu cua ban duoc giu nguyen." -ForegroundColor Yellow
 }
 Write-Host " Dang giai nen vao $dest ..." -ForegroundColor Cyan
 Expand-Archive -Path $zip -DestinationPath $dest -Force
